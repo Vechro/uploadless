@@ -1,28 +1,28 @@
 body {
-    padding: 10% 25% 10% 25%;
-    background-color: black;
-    font-family: monospace;
-    color: white;
+  padding: 10% 25% 10% 25%;
+  background-color: black;
+  font-family: monospace;
+  color: white;
 }
 
 .code {
-    background-color: gray;
-    font-weight: bold;
+  background-color: gray;
+  font-weight: bold;
 }
 
-#cmdInput {
-    box-sizing: border-box;
-    background-color: black;
-    border: none;
-    color: white;
-    outline: none;
+#command-input {
+  box-sizing: border-box;
+  background-color: black;
+  border: none;
+  color: white;
+  outline: none;
 }
 
 #console {
-    padding: 5% 5% 5% 5%;
-    border: 1px solid white;
+  padding: 5% 5% 5% 5%;
+  border: 1px solid white;
 }
 
 #commands {
-    white-space: pre-line;
+  white-space: pre-line;
 }
