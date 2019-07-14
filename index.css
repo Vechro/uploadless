@@ -26,3 +26,7 @@ body {
 #commands {
   white-space: pre-line;
 }
+
+#img-box {
+  text-align: center;
+}

@@ -28,5 +28,8 @@ function removeElementById(id) {
 
 function getHashData() {
   // substring to remove the hash
-  return parent.location.hash.substring(1);
+  const hash = parent.location.hash;
+  if (hash !== "")
+    return JSON.parse(decodeURI(hash.substring(1)));
+  return null;
 }
