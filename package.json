@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.html && cp CNAME dist/CNAME && gh-pages -d dist"
+    "build": "python build.py"
   },
   "repository": {
     "type": "git",
