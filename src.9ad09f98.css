@@ -1,0 +1,35 @@
+body {
+  padding: 10% 25% 10% 25%;
+  background-color: black;
+  font-family: monospace;
+  color: white;
+}
+
+.code {
+  background-color: gray;
+  font-weight: bold;
+}
+
+#command-input {
+  box-sizing: border-box;
+  background-color: black;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+#console {
+  padding: 5% 5% 5% 5%;
+  border: 1px solid white;
+}
+
+#commands {
+  white-space: pre-line;
+}
+
+#img-box {
+  text-align: center;
+}
+
+
+/*# sourceMappingURL=/src.9ad09f98.css.map */
