@@ -1,3 +1,10 @@
+import { evalCommand } from "./commands.js";
+window.evalCommand = evalCommand;
+
+import { renderBase64ImageToElement, downloadBase64, upload } from "./uploadDownload.js";
+import { getHashData, focusInput } from "./misc.js";
+import { inputCode, imgExts } from "./constantStrings";
+
 window.onload = () => {
   const hash = getHashData();
 
@@ -19,14 +26,10 @@ window.onload = () => {
   fileInput.addEventListener("change", () => {
     const file = fileInput.files[0];
 
-    if (prompt(warning) === "yes") {
-      let reader = new FileReader();
-
-      reader.onload = () => {
-        upload(file.name, new Uint8Array(reader.result));
-      };
-
-      reader.readAsArrayBuffer(file);
-    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      upload(file.name, new Uint8Array(reader.result));
+    };
+    reader.readAsArrayBuffer(file);
   });
 };

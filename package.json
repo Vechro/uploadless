@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "name": "uploadless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matrizx/uploadless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matrizx/uploadless/issues"
+  },
+  "homepage": "https://github.com/matrizx/uploadless#readme",
+  "description": ""
+}
