@@ -1,0 +1,2 @@
+- Compress base64
+- Fix text not showing after enter is pressed in terminal
